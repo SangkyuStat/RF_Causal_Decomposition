@@ -1,7 +1,11 @@
 # Causal Decomposition Framework for Quantifying Intervenable Cancer Health Disparities
 
-The repository includes R codes which are used for implementing the simulations and real data analyses in the paper "Causal Decomposition Framework for Quantifying Intervenable Cancer Health Disparities", along with some toy simulation examples. You can run the toy simulations by using the file named "res_gen.R", where it calls the toy example from "toy.R". You have to install the required R packages before running the examples. We provide the toy simulation examples because our original simulation data from the paper contains the data that is not shareable, and also the computation burden for the original simulations was enormous, so we had to use the HPC to complete the simulations. This toy examples are intended to run on local computers for readers to understand the structure of the algorithms and the codes.
+This repository provides the R code for implementing the simulations and real data analyses presented in the paper "Causal Decomposition Framework for Quantifying Intervenable Cancer Health Disparities."
+Since the original simulation data used in the paper cannot be shared and the full simulations require HPC due to their computational demands, we include toy simulation examples that can be run on a local machine. These examples are designed to help readers understand the structure of the algorithms and code.
 
-If you happen to notice any errors in my code, I would greatly appreciate it if you could kindly let me know by reaching out to me at the email address provided below.
+**Getting Started**
 
-sangkyulee@konkuk.ac.kr
+1. Install the required R packages listed in the scripts.
+2. Run `res_gen.R`, which calls the toy example defined in `toy.R`.
+
+If you happen to notice any errors in my code, I would greatly appreciate it if you could kindly let me know by reaching out to me.
